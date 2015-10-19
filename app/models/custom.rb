@@ -1,0 +1,3 @@
+class Custom < ActiveRecord::Base
+  belongs_to :person
+end

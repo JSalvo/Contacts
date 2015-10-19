@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Person:</strong>
+  <%= @custom.person %>
+</p>
+
+<p>
+  <strong>Value:</strong>
+  <%= @custom.value %>
+</p>
+
+<p>
+  <strong>Type:</strong>
+  <%= @custom.type %>
+</p>
+
+<%= link_to 'Edit', edit_custom_path(@custom) %> |
+<%= link_to 'Back', customs_path %>

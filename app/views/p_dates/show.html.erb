@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Person:</strong>
+  <%= @p_date.person %>
+</p>
+
+<p>
+  <strong>Value:</strong>
+  <%= @p_date.value %>
+</p>
+
+<%= link_to 'Edit', edit_p_date_path(@p_date) %> |
+<%= link_to 'Back', p_dates_path %>
